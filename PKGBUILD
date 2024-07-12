@@ -15,7 +15,8 @@ source=(
   "${pkgname}-${pkgver}.tar.gz::https://downloads.sourceforge.net/sourceforge/${pkgname/_/}/SDL_Pango-${pkgver}.tar.gz"
   "SDL_Pango-${pkgver}-API-adds.patch"
   "matrix_declarations.patch"
-  "SDL_Pango-0.1.2-fedora-c99.patch"
+  "SDL_Pango-0.1.2-fedora-c99.patch::https://src.fedoraproject.org/rpms/SDL_Pango/raw/rawhide/f/SDL_Pango-0.1.2-fedora-c99.patch"
+
 )
 sha256sums=(
   "7f75d3b97acf707c696ea126424906204ebfa07660162de925173cdd0257eba4"
